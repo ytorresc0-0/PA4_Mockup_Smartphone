@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Mockups smartphone · Tony's Chocolonely</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Zilla+Slab:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--red:#E4002B;--redh:#C20024;--redp:#9B0020;--blue:#1E4FC4;--blueh:#173D9A;--yel:#FFC72C;--pink:#FFA3C0;--org:#FF6A13;--dark:#2B1A12;--cream:#FFF6E8;--mut:#6B5A50;--stage:#efe6d8;--stagei:#2B1A12;
+--H:'Alfa Slab One','Rockwell Extra Bold',Georgia,serif;--T:'Zilla Slab',Rockwell,Georgia,serif;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--stage:#1a110c;--stagei:#FFF6E8;color-scheme:dark}}
+:root[data-theme="dark"]{--stage:#1a110c;--stagei:#FFF6E8;color-scheme:dark}
+*{box-sizing:border-box}html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;background:var(--stage);color:var(--dark);font:400 16px/24px var(--T)}
+a{color:inherit}
+.bt{display:inline-block;min-height:48px;font:400 16px/20px var(--H);padding:13px 24px;border-radius:999px;border:3px solid var(--red);background:var(--red);color:#fff;text-decoration:none;cursor:pointer;text-align:center;transition:background .2s ease,transform .2s ease,box-shadow .2s ease,color .2s ease}
+.bt:hover,.bt.h{background:var(--redh);border-color:var(--redh);transform:translateY(-2px);box-shadow:0 4px 0 var(--dark)}
+.bt:active,.bt.p{background:var(--redp);border-color:var(--redp);transform:scale(.97);box-shadow:none}
+.bt:focus-visible,.bt.f{outline:3px solid var(--blue);outline-offset:3px}
+.bt.s{background:transparent;color:var(--red)}.bt.s:hover,.bt.s.h{background:var(--red);color:#fff}
+.bt.y{background:var(--yel);border-color:var(--yel);color:var(--dark)}.bt.y:hover,.bt.y.h{background:var(--org);border-color:var(--org);color:#fff}
+.bt.d,.bt[disabled]{background:#d8cdc2;border-color:#d8cdc2;color:#7b6c62;cursor:not-allowed;transform:none;box-shadow:none}
+.bt.blk{display:block;width:100%;margin-top:14px}
+.lk{color:var(--blue);font-weight:600;text-decoration:underline;text-underline-offset:3px;text-decoration-thickness:2px;transition:color .2s}
+.lk:hover,.lk.h{color:var(--red);text-decoration-thickness:3px}
+.lk:focus-visible{outline:3px solid var(--blue);outline-offset:2px;border-radius:3px}
+.bar{--c:var(--red);--t:#fff;aspect-ratio:3/5;border-radius:10px;background-color:var(--c);color:var(--t);display:flex;flex-direction:column;align-items:center;justify-content:center;padding:10px;text-align:center;border:3px solid var(--dark);overflow:hidden;background-image:linear-gradient(#0002 2px,transparent 2px),linear-gradient(90deg,#0002 2px,transparent 2px);background-size:34% 25%;transition:transform .3s ease}
+.bar b{font:400 20px/22px var(--H)}.bar span{font:600 12px/15px var(--T);margin-top:4px}
+.pc{background:#fff;border:3px solid var(--dark);border-radius:14px;padding:10px;text-decoration:none;color:var(--dark);display:block;transition:transform .2s ease,box-shadow .2s ease}
+.pc:hover,.pc.h{transform:translateY(-4px);box-shadow:0 6px 0 var(--dark)}.pc:hover .bar,.pc.h .bar{transform:scale(1.05)}
+.pc .bar{aspect-ratio:4/5;margin-bottom:8px}.pc b{font:700 16px/20px var(--T);display:block}.pc small{color:var(--mut);display:block;font-size:13px;line-height:17px}.pc .pr{font:400 16px/22px var(--H);color:var(--red);margin-top:4px}
+.cat{--c:var(--red);--t:#fff;border-radius:14px;padding:16px 14px;min-height:130px;background:var(--c);color:var(--t);border:3px solid var(--dark);text-decoration:none;display:flex;flex-direction:column;justify-content:flex-end;transition:transform .2s ease,box-shadow .2s ease}
+.cat:hover,.cat.h{transform:translateY(-4px);box-shadow:0 6px 0 var(--dark)}.cat b{font:400 20px/24px var(--H)}.cat span{font:600 13px/17px var(--T)}
+.f{display:block;margin:14px 0}.f span{display:block;font:600 14px/18px var(--T);margin-bottom:4px}
+.f input,.in{width:100%;font:400 16px/24px var(--T);padding:11px 14px;border:3px solid var(--dark);border-radius:12px;background:#fff;color:var(--dark);transition:border-color .2s,box-shadow .2s}
+.f input:hover,.in:hover{border-color:var(--blue)}.f input:focus,.in:focus,.in.fc{outline:none;border-color:var(--blue);box-shadow:0 0 0 4px #1E4FC444}
+.in.er{border-color:var(--red)}.in.ds{background:#e8e0d8;color:#8b7c72;border-color:#cfc4bb}
+.chip{display:inline-block;padding:6px 14px;border:3px solid var(--dark);border-radius:999px;font:600 14px/18px var(--T);background:#fff;margin:0 6px 6px 0;text-decoration:none;color:var(--dark);transition:background .2s}
+.chip:hover,.chip.on{background:var(--yel)}
+.st{display:flex;gap:6px;margin-bottom:18px}.st b{flex:1;text-align:center;padding:6px 2px;border:3px solid var(--dark);border-radius:999px;font:600 12px/16px var(--T);background:#fff}
+.st b.on{background:var(--red);color:#fff;border-color:var(--red)}.st b.ok{background:var(--yel)}
+.opt{display:flex;gap:10px;align-items:center;border:3px solid var(--dark);border-radius:12px;padding:12px;margin:8px 0;background:#fff;transition:background .2s}.opt:hover,.opt.on{background:var(--yel)}
+.ln{display:flex;gap:12px;align-items:center;padding:10px 0;border-bottom:2px solid #e3d3bd}.ln .bar{width:56px;flex:none;aspect-ratio:3/5}.ln .bar b{font-size:11px;line-height:12px}.ln .bar span{display:none}.ln div{flex:1}
+.sum{background:#fff;border:3px solid var(--dark);border-radius:14px;padding:14px;margin-top:14px}.sum div{display:flex;justify-content:space-between;padding:3px 0}
+.okc{width:84px;height:84px;border-radius:50%;background:var(--yel);border:3px solid var(--dark);display:flex;align-items:center;justify-content:center;font:400 40px var(--H);margin:0 auto 14px}
+.toast{background:var(--dark);color:var(--cream);padding:12px 16px;border-radius:12px;border-left:8px solid var(--yel);font-weight:600}
+.hd{background:var(--red);color:#fff;display:flex;align-items:center;gap:10px;padding:10px 16px}
+.hd .lg{font:400 24px/28px var(--H);color:#fff;text-decoration:none}
+.ib{width:44px;height:44px;border-radius:50%;display:flex;align-items:center;justify-content:center;color:#fff;background:none;border:0;cursor:pointer;position:relative;text-decoration:none;transition:background .2s,color .2s,transform .2s}
+.ib:hover,.ib.h{background:var(--yel);color:var(--dark);transform:scale(1.08)}.ib:focus-visible{outline:3px solid var(--blue);outline-offset:2px}
+.ib svg,.ico{width:26px;height:26px;stroke:currentColor;fill:none;stroke-width:2.3;stroke-linecap:round;stroke-linejoin:round}
+.cn{position:absolute;top:2px;right:0;background:var(--yel);color:var(--dark);font:700 11px/18px var(--T);min-width:18px;height:18px;border-radius:9px;text-align:center}
+.mnav a,.mi{display:block;color:#fff;font:600 16px/20px var(--T);padding:9px 14px;border-radius:999px;text-decoration:none;transition:background .2s,color .2s}
+.mnav a:hover,.mi:hover,.mi.h{background:var(--yel);color:var(--dark)}.mnav a.on,.mi.on{box-shadow:inset 0 -3px 0 var(--yel)}
+.ft{background:var(--dark);color:var(--cream);padding:24px 16px;display:grid;grid-template-columns:1fr 1fr;gap:16px;font-size:14px}
+.ft b{font:400 16px var(--H);color:var(--yel);display:block;margin-bottom:4px}.ft a{color:var(--cream);display:block;padding:4px 0;text-decoration:none}.ft a:hover{color:var(--yel);text-decoration:underline}
+
+.tb2{display:flex;gap:10px;align-items:center;flex-wrap:wrap;padding:8px 14px;background:var(--stagei);color:var(--stage);font:600 13px/18px var(--T)}
+.tb2 select{padding:5px;border-radius:6px;font:inherit;max-width:100%}
+.app{background:var(--cream);color:var(--dark);margin:14px auto;border:3px solid var(--dark);overflow:hidden}
+.m .app{max-width:390px;border-radius:28px}.d .app{max-width:1280px;border-radius:12px}
+.m .mnav{display:none;flex-direction:column;background:var(--red);padding:4px 12px 12px}.m .mnav.on{display:flex}
+.d .mnav{display:flex;gap:4px;flex:1;margin-left:18px}.d #mn{display:none}.d #bm{display:none}.m .hd .lg{flex:1;text-align:center}
+.sr{margin:14px 16px 0;padding:11px 16px;border:3px solid var(--dark);border-radius:999px;background:#fff;color:var(--mut);display:flex;gap:10px;align-items:center}
+.d .sr{max-width:520px;margin:20px auto 0}
+main{padding:18px 16px 28px;min-height:480px}.d main{padding:28px 48px 48px;min-height:620px}
+h1{font:400 28px/34px var(--H);margin:6px 0 10px}.d h1{font-size:40px;line-height:46px}
+h2{font:400 22px/28px var(--H);color:var(--red);margin:26px 0 12px}h3{font:700 18px/24px var(--T);margin:14px 0 6px}
+p{margin:6px 0 10px}.bc{font-size:13px;color:var(--mut);margin-bottom:8px}.bc a{color:var(--blue);font-weight:600}
+.hero{background:linear-gradient(135deg,#E4002B,#FF6A13);color:#fff;border-radius:18px;padding:22px;display:grid;gap:18px;border:3px solid var(--dark)}
+.d .hero{grid-template-columns:1.25fr 1fr;padding:46px;align-items:center}.hero h1{color:#fff;margin-top:0}
+.hbars{display:flex;gap:10px;justify-content:center}.hbars .bar{width:30%;max-width:130px}.d .hbars .bar{max-width:150px}
+.grid{display:grid;gap:14px;grid-template-columns:repeat(2,1fr)}.d .grid{grid-template-columns:repeat(4,1fr)}.d .grid.g3{grid-template-columns:repeat(3,1fr)}
+.two{display:grid;gap:22px}.d .two{grid-template-columns:1fr 1fr;align-items:start}
+.panel{background:#fff;border:3px solid var(--dark);border-radius:16px;padding:18px;display:flex;justify-content:center;gap:12px}.panel .bar{width:52%;max-width:240px;aspect-ratio:3/5}
+.card{background:#fff;border:3px solid var(--dark);border-radius:16px;padding:16px}
+.cen{text-align:center;max-width:460px;margin:26px auto}.fm{max-width:520px}.d .fm{margin:0 auto}
+.qty{display:flex;align-items:center;gap:12px;margin:12px 0}.qty b{font:400 20px var(--H);min-width:30px;text-align:center}
+.pr2{font:400 26px var(--H);color:var(--red)}
+.row2{display:flex;gap:10px;flex-wrap:wrap}.row2 .bt{flex:1}
+</style>
+</head>
+<body>
+<div class="tb2"><b>Mockups smartphone · Tony's Chocolonely</b><label>Ir a pantalla: <select id="sel"></select></label><span id="grp"></span></div>
+<div class="app"><header class="hd" id="hd"></header><div id="mn" class="mnav"></div><div class="sr"><svg class="ico" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M21 21l-5-5"/></svg>Buscar chocolates, sabores y regalos</div><main id="m"></main><footer class="ft" id="ft"></footer></div>
+<script>
+const MODE='m';document.body.className=MODE;
+const IC={menu:'<path d="M3 6h18M3 12h18M3 18h18"/>',x:'<path d="M5 5l14 14M19 5L5 19"/>',user:'<circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 4-6 8-6s8 2 8 6"/>',cart:'<circle cx="9" cy="20" r="1.5"/><circle cx="18" cy="20" r="1.5"/><path d="M2 3h3l3 13h11l2-9H6"/>'};
+const svg=n=>`<svg viewBox="0 0 24 24">${IC[n]}</svg>`;
+const A=(t,x,c='')=>`<a href="#${t}" class="${c}">${x}</a>`;
+const BT=(t,x,c='')=>A(t,x,'bt '+c);
+const PR=[['Milk Chocolate','Chocolate con leche clásico','S/ 24.90','#1E4FC4','#fff'],['Milk Caramel Sea Salt','Leche, caramelo y sal marina','S/ 26.90','#FF6A13','#fff'],['Milk Hazelnut','Leche con avellanas','S/ 26.90','#FFC72C','#2B1A12'],['Dark Milk Pretzel Toffee','Leche intenso con pretzel y toffee','S/ 27.90','#9B0020','#fff'],['Dark Chocolate','Chocolate negro intenso','S/ 24.90','#2B1A12','#FFF6E8'],['Dark Almond Sea Salt','Negro con almendras y sal','S/ 27.90','#E4002B','#fff']];
+const BAR=(i,x='')=>{const p=PR[i];return `<div class="bar" style="--c:${p[3]};--t:${p[4]}"><b>Tony's</b><span>${p[0]}</span>${x}</div>`};
+const PC=i=>A('contenido',`${BAR(i)}<b>${PR[i][0]}</b><small>${PR[i][1]}</small><div class="pr">${PR[i][2]}</div>`,'pc');
+const CATS=[['Barras de leche','Cremosas y suaves','#1E4FC4','#fff'],['Barras negras','Intensas y puras','#2B1A12','#FFF6E8'],['Sabores especiales','Mezclas para sorprender','#FFA3C0','#2B1A12'],['Packs y regalos','Para compartir','#FFC72C','#2B1A12']];
+const CAT=()=>`<div class="grid">${CATS.map(c=>A('subcategorias',`<b>${c[0]}</b><span>${c[1]}</span>`,'cat" style="--c:'+c[2]+';--t:'+c[3])).join('')}</div>`;
+const F=(l,ph,t='text')=>`<label class="f"><span>${l}</span><input type="${t}" placeholder="${ph}"></label>`;
+const ST=n=>`<div class="st">${['1 Carrito','2 Envío','3 Pago','4 Listo'].map((x,i)=>`<b class="${i+1<n?'ok':i+1==n?'on':''}">${x}</b>`).join('')}</div>`;
+const BC=(...a)=>`<div class="bc">${a.join(' › ')}</div>`;
+const LN=(i,q)=>`<div class="ln">${BAR(i)}<div><b>${PR[i][0]}</b><br><small>180 g · Cant. ${q}</small></div><b>${PR[i][2]}</b></div>`;
+const STATIC=(t,lead,body)=>BC(A('inicio','Inicio','lk'),t)+`<h1>${t}</h1><div class="two"><div class="panel">${BAR(0)}${BAR(3)}</div><div><h3>${lead}</h3><p>${body}</p><p>Cada barra es una invitación a pensar de dónde viene lo que comemos y a elegir con conciencia.</p>${BT('categorias','Ver chocolates')}</div></div>`;
+const SCR={
+inicio:['Base','Inicio',()=>`<div class="hero"><div><h1>Chocolate delicioso, 100% libre de esclavitud</h1><p>Cada barra cuenta una historia: cacao trazable y pagos más justos para quienes lo cultivan.</p>${BT('categorias','Ver chocolates','y')}</div><div class="hbars">${BAR(0)}${BAR(1)}${BAR(5)}</div></div><h2>Elige tu categoría</h2>${CAT()}<h2>Los favoritos</h2><div class="grid">${[1,5,0,2].map(PC).join('')}</div><h2>Únete a la causa</h2><div class="card"><h3>Sé parte del cambio</h3><p>Recibe novedades, historias del cacao y formas de apoyar un chocolate más justo.</p>${BT('comunidad','Quiero unirme','s')}</div>`],
+categorias:['Comprar','Categorías (elegir categoría)',()=>`${BC(A('inicio','Inicio','lk'),'Chocolates')}<h1>Chocolates</h1><p>Elige una categoría para encontrar tu sabor favorito.</p>${CAT()}`],
+subcategorias:['Comprar','Subcategorías (elegir producto)',()=>`${BC(A('inicio','Inicio','lk'),A('categorias','Chocolates','lk'),'Barras de leche')}<h1>Barras de leche</h1><p>6 sabores · 180 g cada barra</p><div><span class="chip on">Todos</span><span class="chip">Con sal marina</span><span class="chip">Con frutos secos</span></div><div class="grid g3" style="margin-top:12px">${[0,1,2,3,4,5].map(PC).join('')}</div>`],
+contenido:['Comprar','Contenido específico (producto)',()=>`${BC(A('inicio','Inicio','lk'),A('categorias','Chocolates','lk'),A('subcategorias','Barras de leche','lk'),'Milk Caramel Sea Salt')}<div class="two"><div class="panel">${BAR(1)}</div><div><h1>Milk Caramel Sea Salt</h1><div class="pr2">S/ 26.90</div><p>Chocolate con leche cremoso con caramelo y un toque de sal marina. Barra de 180 g con las piezas desiguales que nos identifican.</p><div><span class="chip on">180 g</span><span class="chip">Cacao trazable</span></div><div class="qty"><a class="bt s" style="min-height:44px;padding:8px 16px" href="#contenido">−</a><b>1</b><a class="bt s" style="min-height:44px;padding:8px 16px" href="#contenido">+</a></div>${BT('carrito','Agregar al carrito','blk')}${BT('subcategorias','Seguir viendo sabores','s blk')}</div></div>`],
+carrito:['Comprar','Carrito (agregar al carrito)',()=>`${ST(1)}<h1>Tu carrito</h1><div class="two"><div>${LN(1,1)}${LN(5,1)}${A('categorias','← Seguir comprando','lk')}</div><div class="sum"><div><span>Subtotal</span><span>S/ 53.80</span></div><div><span>Envío</span><span>S/ 10.00</span></div><div><b>Total</b><b>S/ 63.80</b></div>${BT('envio','Continuar con el envío','blk')}</div></div>`],
+envio:['Comprar','Datos de envío',()=>`${ST(2)}<div class="fm"><h1>Datos de envío</h1>${F('Nombre completo','Ej. Camila Rojas')}${F('Dirección','Av. Los Olivos 123')}${F('Distrito','Ej. Miraflores')}${F('Teléfono','987 654 321','tel')}${BT('pago','Continuar al pago','blk')}${BT('carrito','Volver al carrito','s blk')}</div>`],
+pago:['Comprar','Pago',()=>`${ST(3)}<div class="fm"><h1>Pago</h1><div class="opt on">◉ Tarjeta de crédito o débito</div><div class="opt">○ Yape</div>${F('Número de tarjeta','0000 0000 0000 0000')}${F('Vencimiento','MM/AA')}${F('Código de seguridad','CVV')}<div class="sum"><div><b>Total a pagar</b><b>S/ 63.80</b></div></div>${BT('confirmacion','Pagar S/ 63.80','blk')}${BT('envio','Volver a envío','s blk')}</div>`],
+confirmacion:['Comprar','Confirmación de compra',()=>`${ST(4)}<div class="cen"><div class="okc">✓</div><h1>¡Pedido confirmado!</h1><p>Tu pedido N.º TC-10482 está en camino. Te enviamos el resumen a tu correo.</p>${BT('inicio','Volver al inicio','blk')}</div>`],
+registro:['Registrarse','Crear cuenta',()=>`${BC(A('inicio','Inicio','lk'),'Mi cuenta')}<div class="fm"><h1>Crea tu cuenta</h1><p>Compra más rápido y sigue tus pedidos.</p>${F('Correo electrónico','nombre@correo.com','email')}${F('Contraseña','Mínimo 8 caracteres','password')}${BT('datos','Crear cuenta','blk')}<p>¿Ya tienes cuenta? ${A('inicio','Inicia sesión','lk')}</p></div>`],
+datos:['Registrarse','Llenar datos',()=>`<div class="fm"><h1>Cuéntanos sobre ti</h1>${F('Nombre','Ej. Camila')}${F('Apellido','Ej. Rojas')}${F('País','Perú')}<p>☐ Acepto los términos y condiciones</p>${BT('correo','Continuar','blk')}${BT('registro','Volver','s blk')}</div>`],
+correo:['Registrarse','Confirmar correo',()=>`<div class="fm"><h1>Confirma tu correo</h1><p>Ingresa el código de 6 dígitos que enviamos a tu correo.</p>${F('Código de verificación','000000')}${BT('cuenta','Confirmar','blk')}<p>${A('datos','Corregir mis datos','lk')}</p></div>`],
+cuenta:['Registrarse','Cuenta creada',()=>`<div class="cen"><div class="okc">✓</div><h1>¡Cuenta creada!</h1><p>Ya puedes comprar y unirte a la comunidad.</p>${BT('inicio','Ir al inicio','blk')}</div>`],
+comunidad:['Comunidad','Comunidad (ir a Comunidad)',()=>`${BC(A('inicio','Inicio','lk'),'Comunidad')}<h1>Comunidad</h1><p>Súmate a quienes quieren un chocolate más justo.</p><div class="two"><div class="card"><h3>Newsletter</h3><p>Novedades, nuevos sabores e historias del cacao en tu correo.</p>${BT('newsletter','Suscribirme','blk')}</div><div class="card"><h3>Únete a la causa</h3><p>Descubre cómo puedes apoyar el trabajo por un cacao libre de esclavitud.</p>${BT('mision','Conocer la misión','s blk')}</div></div>`],
+newsletter:['Comunidad','Ingresar correo',()=>`<div class="fm"><h1>Suscríbete al newsletter</h1><p>Solo enviamos lo que vale la pena leer.</p>${F('Correo electrónico','nombre@correo.com','email')}${BT('terminos','Continuar','blk')}${BT('comunidad','Volver','s blk')}</div>`],
+terminos:['Comunidad','Aceptar términos',()=>`<div class="fm"><h1>Un último paso</h1><div class="card"><p>Usaremos tu correo solo para enviarte novedades de la marca. Puedes darte de baja cuando quieras.</p></div><p>☐ Acepto los términos y la política de privacidad</p>${BT('bienvenida','Suscribirme','blk')}${BT('newsletter','Corregir correo','s blk')}</div>`],
+bienvenida:['Comunidad','Mensaje de bienvenida',()=>`<div class="cen"><div class="okc">✓</div><h1>¡Bienvenido/a a la comunidad!</h1><p>Pronto recibirás nuestras novedades.</p>${BT('inicio','Volver al inicio','blk')}</div>`],
+nosotros:['Estática','Nosotros (contenido estático)',()=>STATIC('Nosotros','Quiénes somos','Somos una marca de chocolate nacida en los Países Bajos en 2005 con una misión clara: que todo el chocolate sea 100% libre de esclavitud.')],
+mision:['Estática','Nuestra misión',()=>STATIC('Nuestra misión','Chocolate justo','Trabajamos con cacao trazable y buscamos pagar mejor a quienes lo cultivan, para cambiar la forma en que se hace el chocolate.')]
+};
+const NAV=[['categorias','Chocolates'],['carrito','Comprar'],['mision','Nuestra misión'],['comunidad','Comunidad'],['registro','Mi cuenta'],['nosotros','Nosotros']];
+const act={categorias:'categorias',subcategorias:'categorias',contenido:'categorias',carrito:'carrito',envio:'carrito',pago:'carrito',confirmacion:'carrito',mision:'mision',comunidad:'comunidad',newsletter:'comunidad',terminos:'comunidad',bienvenida:'comunidad',registro:'registro',datos:'registro',correo:'registro',cuenta:'registro',nosotros:'nosotros'};
+const sel=document.getElementById('sel'),mn=document.getElementById('mn'),g={};
+Object.entries(SCR).forEach(([id,s])=>{(g[s[0]]=g[s[0]]||[]).push([id,s[1]])});
+sel.innerHTML=Object.entries(g).map(([k,a])=>`<optgroup label="${k}">${a.map(([id,t])=>`<option value="${id}">${t}</option>`).join('')}</optgroup>`).join('');
+sel.onchange=()=>{location.hash=sel.value};
+document.getElementById('ft').innerHTML=`<div><b>Tony's</b>${A('nosotros','Nosotros')}${A('mision','Nuestra misión')}</div><div><b>Tienda</b>${A('categorias','Chocolates')}${A('carrito','Carrito')}</div><div><b>Comunidad</b>${A('comunidad','Newsletter')}${A('registro','Mi cuenta')}</div><div><b>Ayuda</b>${A('inicio','Inicio')}${A('nosotros','Contacto')}</div>`;
+function go(){const id=location.hash.slice(1),k=SCR[id]?id:'inicio',s=SCR[k],a=act[k];
+document.getElementById('hd').innerHTML=`<button class="ib" id="bm" aria-label="Menú">${svg('menu')}</button><a class="lg" href="#inicio">Tony's</a><nav class="mnav" style="display:${MODE=='d'?'flex':'none'};background:none;padding:0">${NAV.map(n=>A(n[0],n[1],n[0]==a?'on':'')).join('')}</nav><a class="ib" href="#registro" aria-label="Mi cuenta">${svg('user')}</a><a class="ib" href="#carrito" aria-label="Carrito">${svg('cart')}<span class="cn">2</span></a>`;
+mn.innerHTML=NAV.map(n=>A(n[0],n[1],n[0]==a?'on':'')).join('');mn.classList.remove('on');
+document.getElementById('bm').onclick=()=>mn.classList.toggle('on');
+document.getElementById('m').innerHTML=s[2]();sel.value=k;document.getElementById('grp').textContent='Flujo: '+s[0];window.scrollTo(0,0)}
+addEventListener('hashchange',go);go();
+</script>
+</body>
+</html>
